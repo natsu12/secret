@@ -10,5 +10,9 @@ $(function  () {
     } else {
       $('.error').css('display','block');
     }
+  });
+
+  $('input').focus(function () {
+    $('.error').css('display','none');
   })
 });
