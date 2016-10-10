@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secret Room</title>
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>神秘屋</h1>
+
+      <div class="description">
+        <p>欢迎来到神秘屋，你需要利用下图中的线索来解出三个字母（区分大小写），解出答案后将会得到通往秘密房间的线索。</p>
+      </div>
+      
+      <div class="img">
+        <img class="secret" src="secret.png">
+      </div>
+
+      
+      <form>
+        <input id="t1" type="text">
+        <input id="t2" type="text">
+        <input id="t3" type="text">
+        <br>
+        <button type="submit" class="btn btn-default random-draw">提交</button>
+        <div class="error">答案不正确</div>
+      </form>
+      
+
+    </div>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

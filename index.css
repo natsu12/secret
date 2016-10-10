@@ -1,0 +1,33 @@
+.container {
+  width: 780px;
+  margin: 20px auto;
+}
+
+
+.secret {
+  width: 100%;
+}
+
+form {
+  text-align: center;
+  margin-top: 10px;
+}
+
+form input[type="text"] {
+  padding: 20px 10px;
+  font-size: 50px;
+  width: 80px;
+  margin: 0 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+    
+button {
+  margin-top: 10px;
+}
+
+.error {
+  margin-top: 10px;
+  color: red;
+  display: none;
+}
