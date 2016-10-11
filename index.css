@@ -31,3 +31,7 @@ button {
   color: red;
   display: none;
 }
+
+.hint {
+  margin-top: 10px;
+}
